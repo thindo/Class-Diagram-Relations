@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Association Relationship between AssociationClass and Car class ">
+    <Position X="5.578" Y="2.271" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Class People is an Aggregate of class Car. If class People is deleted, class Car still remains.">
+    <Position X="5.724" Y="4.667" Height="0.812" Width="1.856" />
+  </Comment>
+  <Comment CommentText="Composition Relationship.&#xD;&#xA;Between BaseClass and ComposedClass. BaseClass contains list of ComposedClass. So if you delete baseClass you will delete composedClass">
+    <Position X="2.208" Y="1.875" Height="1.5" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Child class inherits from Base class">
+    <Position X="2.281" Y="3.823" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="ClassDiagramRelations.AssociationClass">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Association.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Car" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassDiagramRelations.BaseClass">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ClassDiagramRelations.BaseClass.ComposedClass" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BaseClass.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassDiagramRelations.Car">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassDiagramRelations.ChildClass" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChildClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassDiagramRelations.People">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>People.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="classCar" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
