@@ -12,13 +12,13 @@ Here is the C# class diagram in this example
 
 
 If you are looking for a clsss hierarchy:
-
+------------------------------------------
 Try [NClass](http://nclass.sourceforge.net/downloads.html) it's cool in short , I have tried it myself.
 
 Features:
----------
-Simple User Interface.
-Free UML class diagram tool specially for C#.
-From diagram to Code generation.
-Classic style class diagrams.
-Visual Studio style class diagrams
+
+*Simple User Interface.
+*Free UML class diagram tool specially for C#.
+*From diagram to Code generation.
+*Classic style class diagrams.
+*Visual Studio style class diagrams
