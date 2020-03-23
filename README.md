@@ -11,7 +11,7 @@ Here is the C# class diagram in this example
 ![Here is the C# class diagram in this example.](https://github.com/thindo/Class-Diagram-Relations/blob/master/Class-Diagram.png)
 
 
-If you are looking for a clsss hierarchy:
+If you are looking for a class hierarchy:
 ------------------------------------------
 Try [NClass](http://nclass.sourceforge.net/downloads.html) it's cool in short , I have tried it myself.
 
