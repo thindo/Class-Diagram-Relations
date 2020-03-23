@@ -8,7 +8,7 @@ Many people consider class diagrams a bit more complicated to build compared wit
 
 Here is the C# class diagram in this example
 --------------------------------------------
-![Here is the C# class diagram in this example.]()
+![Here is the C# class diagram in this example.](https://github.com/thindo/Class-Diagram-Relations/blob/master/Class-Diagram.png)
 
 
 If you are looking for a class hierarchy,
